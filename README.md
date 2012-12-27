@@ -1,11 +1,11 @@
-# Modelized #
+# Modelize #
 
-[![build status](https://secure.travis-ci.org/NeoXiD/modelized.png)](http://travis-ci.org/NeoXiD/modelized)
+[![build status](https://secure.travis-ci.org/NeoXiD/modelize.png)](http://travis-ci.org/NeoXiD/modelize)
 
-Modelized is a simple ORM written in JavaScript.
+Modelize is a simple ORM written in JavaScript.
 
 ## Prerequisites ##
-Modelized requires version 0.6.x of Node.js or higher. If you want to run the tests or work on model, you'll want [Vows](https://github.com/cloudhead/vows).
+Modelize requires version 0.6.x of Node.js or higher. If you want to run the tests or work on model, you'll want [Vows](https://github.com/cloudhead/vows).
 
 - - -
-Modelized Javascript ORM - © 2012 P. Mathis (pmathis@snapserv.net)
+Modelize Javascript ORM - © 2012 P. Mathis (pmathis@snapserv.net)
