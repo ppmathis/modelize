@@ -1,0 +1,32 @@
+{
+    "name": "modelized",
+    "description": "ORM in JavaScript",
+    "keywords": [
+        "model",
+        "models",
+        "modelized",
+        "relation",
+        "data",
+        "validation",
+        "memory",
+        "orm",
+        "mapper",
+        "adapter"
+    ],
+    "version": "0.0.1",
+    "author": "Pascal Mathis <pmathis@snapserv.net> (http://snapserv.net)",
+    "main": "./lib/index.js",
+    "scripts": {
+        "test": "vows --spec test/*"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/NeoXiD/modelized"
+    },
+    "dependencies": {
+        "vows": "*"
+    },
+    "engines": {
+        "node": "*"
+    }
+}
