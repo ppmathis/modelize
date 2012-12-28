@@ -1,6 +1,6 @@
 {
     "name": "modelize",
-    "description": "ORM in JavaScript",
+    "description": "Simple ORM in JavaScript",
     "keywords": [
         "model",
         "models",
@@ -13,7 +13,7 @@
         "mapper",
         "adapter"
     ],
-    "version": "0.0.1",
+    "version": "0.0.2",
     "author": "Pascal Mathis <pmathis@snapserv.net> (http://snapserv.net)",
     "main": "./lib/index.js",
     "scripts": {
