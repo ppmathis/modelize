@@ -9,7 +9,7 @@ vows.describe('Model instances').addBatch({
                 this.adapter('memory');
                 this.property('field', 'string', {defaultValue: 'Default value'})
             })
-            return new Model();
+            return Model.create();
         },
 
         'without setting the property': {
@@ -41,7 +41,7 @@ vows.describe('Model instances').addBatch({
 
         'does not throw an error': function(Model) {
             assert.doesNotThrow(function() {
-                new Model({
+                Model.create({
                     requiredField: 'test'
                 }).save();
             }, Error);
@@ -57,7 +57,7 @@ vows.describe('Model instances').addBatch({
 
         'throws an error': function(Model) {
             assert.throws(function() {
-                new Model().save();
+                Model.create().save();
             }, Error);
         }
     },
@@ -68,7 +68,7 @@ vows.describe('Model instances').addBatch({
                 this.property('changedField', 'string');
                 this.property('unchangedField', 'string');
             });
-            var ModelInstance = new Model({
+            var ModelInstance = Model.create({
                 changedField: 'Hello World',
                 unchangedField: 'Goodbye World'
             });
