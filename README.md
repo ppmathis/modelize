@@ -32,6 +32,13 @@ var UserModel = new Modelize('User', function() {
 });
 ```
 
+The following data types are currently supported:
+
+- string
+- number
+- array
+- object
+
 ## Creating instances ##
 Now you can create instances of your new fancy User model. It is easy too:
 
@@ -112,6 +119,8 @@ UserModel.find({lastName: 'Smith'}, function(err, data) {
 	// Data is now array filled with all results found
 });
 ```
+
+If you want to compare an object, you can also give a set of query parameters like this: ```{stats: {experience: 37, age: 19}}```
 
 - - -
 Modelize Javascript ORM - © 2012-2013 P. Mathis (pmathis@snapserv.net)
