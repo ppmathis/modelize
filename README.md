@@ -90,6 +90,7 @@ UserModel.find({lastName: 'Doe'}, function(err, data) {
 	user1.lastName('Smith');
 	console.log(user1.lastName() == data[0].lastName()) // Is true
 });
+```
 
 ### Finding a single item ###
 Use the ```findOne``` method to find a single item. You can specify a set of query parameters in the form of an object-literal. In the case of multiple results, it will only return the first one. If no result can be found, the return value is ```undefined```.
